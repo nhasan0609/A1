@@ -376,8 +376,8 @@ header::before {
     right: 0;
     top: 0;
     width: 50%;
-
-    .rectangle1 {
+}
+.rectangle1 {
         position: absolute;
         right: 0;
         top: 0;
@@ -392,3 +392,38 @@ header::before {
         width: 50%;
         transform: translateY(-110%);
     }
+    /* portfolio */
+    
+    .port_folio {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns items to the start of the container */
+    }
+    
+    .heading_1 {
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 120px;
+    }
+    
+    .heading_2 {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    .para_graph {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 896px;
+    }
+    
