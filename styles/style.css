@@ -72,6 +72,8 @@ header::before {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 24px;
 }
 
 .text2 {
@@ -82,6 +84,8 @@ header::before {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 .text3 {
@@ -92,6 +96,8 @@ header::before {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 8px;
+    margin-bottom: 48px;
 }
 
 .center-image {
