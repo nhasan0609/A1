@@ -1,4 +1,4 @@
-font-family: 'Merriweather', serif;
+/* Common style */
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,11 @@ body {
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 header {
     position: relative;
@@ -46,7 +50,7 @@ header::before {
 }
 
 .header-text h1 {
-    
+    font-family: 'Merriweather', serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -54,9 +58,45 @@ header::before {
 }
 
 .header-text h2 {
-    
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+.text1 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust this to change the width of the image */
 }
